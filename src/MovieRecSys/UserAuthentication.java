@@ -11,7 +11,7 @@ import EXCEPTIONS.*;
 public class UserAuthentication 
 {
     private static Scanner sc=new Scanner(System.in);
-    private static final String CREDENTIALS_FILE = "../USERS/USERS.csv";
+    private static final String CREDENTIALS_FILE = "src/USERS/USERS.csv";
 
     public static boolean USERCHECK() 
     {
