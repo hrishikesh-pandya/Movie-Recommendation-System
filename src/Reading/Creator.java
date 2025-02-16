@@ -10,15 +10,15 @@ public class Creator
                                   ArrayList<String> synopsisList) 
     {
         // Read data from CSV files
-        ReadingFilesProperties2.readCSV("../Reading/Actors.csv", actorsList);
-        ReadingFilesProperties2.readCSV("../Reading/Certificate.csv", certificationList);
-        ReadingFilesProperties2.readCSV("../Reading/Directors.csv", directorsList);
-        ReadingFilesProperties2.readCSVInt("../Reading/Duration.csv", durationList);
-        ReadingFilesProperties2.readCSVArray("../Reading/Genres.csv", genresList);
-        ReadingFilesProperties2.readCSV("../Reading/Names.csv", namesList);
-        ReadingFilesProperties2.readCSVDouble("../Reading/Rating.csv", ratingsList);
-        ReadingFilesProperties2.readCSVInt("../Reading/Release_years.csv", releaseYearsList);
-        ReadingFilesProperties2.readCSV("../Reading/Synopsis.csv", synopsisList);
+        ReadingFilesProperties2.readCSV("src/Reading/Actors.csv", actorsList);
+        ReadingFilesProperties2.readCSV("src/Reading/Certificate.csv", certificationList);
+        ReadingFilesProperties2.readCSV("src/Reading/Directors.csv", directorsList);
+        ReadingFilesProperties2.readCSVInt("src/Reading/Duration.csv", durationList);
+        ReadingFilesProperties2.readCSVArray("src/Reading/Genres.csv", genresList);
+        ReadingFilesProperties2.readCSV("src/Reading/Names.csv", namesList);
+        ReadingFilesProperties2.readCSVDouble("src/Reading/Rating.csv", ratingsList);
+        ReadingFilesProperties2.readCSVInt("src/Reading/Release_years.csv", releaseYearsList);
+        ReadingFilesProperties2.readCSV("src/Reading/Synopsis.csv", synopsisList);
     }
 
     public static void createArrays(ArrayList<String> actorsList, ArrayList<String[]> genresList,
