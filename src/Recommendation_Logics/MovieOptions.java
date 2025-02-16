@@ -143,15 +143,15 @@ public class MovieOptions
     }
 
 
-    private static final String NAMES_FILE = "F:\\Study\\SEM 2 PROJECT CSE 2\\Movie_recommendation_sys\\src\\Reading\\Names.csv";
-    private static final String GENRE_FILE = "F:\\Study\\SEM 2 PROJECT CSE 2\\Movie_recommendation_sys\\src\\Reading\\Genres.csv";
-    private static final String ACTORS_FILE = "F:\\Study\\SEM 2 PROJECT CSE 2\\Movie_recommendation_sys\\src\\Reading\\Actors.csv";
-    private static final String CERT_FILE = "F:\\Study\\SEM 2 PROJECT CSE 2\\Movie_recommendation_sys\\src\\Reading\\Certificate.csv";
-    private static final String DIR_FILE = "F:\\Study\\SEM 2 PROJECT CSE 2\\Movie_recommendation_sys\\src\\Reading\\Directors.csv";
-    private static final String DUR_FILE = "F:\\Study\\SEM 2 PROJECT CSE 2\\Movie_recommendation_sys\\src\\Reading\\Duration.csv";
-    private static final String RAT_FILE = "F:\\Study\\SEM 2 PROJECT CSE 2\\Movie_recommendation_sys\\src\\Reading\\Rating.csv";
-    private static final String YRS_FILE = "F:\\Study\\SEM 2 PROJECT CSE 2\\Movie_recommendation_sys\\src\\Reading\\Release_years.csv";
-    private static final String SYN_FILE = "F:\\Study\\SEM 2 PROJECT CSE 2\\Movie_recommendation_sys\\src\\Reading\\Synopsis.csv";
+    private static final String NAMES_FILE = "src\\Reading\\Names.csv";
+    private static final String GENRE_FILE = "src\\Reading\\Genres.csv";
+    private static final String ACTORS_FILE = "src\\Reading\\Actors.csv";
+    private static final String CERT_FILE = "src\\Reading\\Certificate.csv";
+    private static final String DIR_FILE = "src\\Reading\\Directors.csv";
+    private static final String DUR_FILE = "src\\Reading\\Duration.csv";
+    private static final String RAT_FILE = "src\\Reading\\Rating.csv";
+    private static final String YRS_FILE = "src\\Reading\\Release_years.csv";
+    private static final String SYN_FILE = "src\\Reading\\Synopsis.csv";
 
     public static void enterMovieInformation()
     {
